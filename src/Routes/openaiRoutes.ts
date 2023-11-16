@@ -4,7 +4,7 @@ import generateImage from '../controllers/openaiController';
 
 const router = express.Router();
 
-router.get('/generateimage', generateImage);
+router.post('/generateimage', generateImage);
 
 
 export default router;
